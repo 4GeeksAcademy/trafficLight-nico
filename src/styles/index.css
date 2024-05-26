@@ -1,12 +1,28 @@
+#TrafficHandle {
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    margin-left: 90px;
+}
 
-/* 
+#TrafficContainer {
+    background-color: black;
+    width: 80px;
+    height: 170px;
+    padding: 8px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.light {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+    &.red{background-color: red;}
+    &.yellow{background-color: yellow;}
+    &.green{background-color: green;}
+    &.selected{box-shadow: #a7b067 0px 0px 50px 20px;}
+}
